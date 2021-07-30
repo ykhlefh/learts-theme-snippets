@@ -1,0 +1,81 @@
+/* Rounded corners on the WooCommerce "alert" messages */
+.woocommerce-error, .woocommerce-info, .woocommerce-message { border-radius: 7px; }
+
+/* Style form fields to look like Divi */
+input.text, input.title, input[type=email],
+input[type=password], input[type=tel], input[type=text], select, textarea {
+  border: 1px solid #ccc!important;
+	border-radius: 5px;
+  padding: 11px 11px 11px 20px;
+}
+
+
+
+
+.select2-container--default  { 
+
+  border: 1px solid #ccc!important;
+	border-radius: 5px; 
+	padding:3px 12px 3px 20px;
+}
+
+/* some tweaks to simplify the payment method area */
+.woocommerce-checkout #payment { background: none!important; }
+.woocommerce-checkout #payment ul.payment_methods { border: none; }
+
+/* Your Order title position */
+.woocommerce form > h3 {
+    text-align: left;
+}
+#payment {
+    float: left;
+	width:100%;
+}
+
+.woocommerce table.shop_table {
+    width: 100%;
+    float: right;
+}
+
+
+.attachment-woocommerce_thumbnail
+{
+			max-width: 90px;
+    	height: auto;
+    	vertical-align: center;
+}
+#place_order {
+    background-image: linear-gradient(
+25deg
+,#00aeef 0%,#7ed026 100%)!important;
+    border: transparent;
+    color: #fff;
+    box-shadow: rgb(0 0 0 / 28%) 0px 2px 8px 0px;
+    width: 86%;
+}
+.cart-actions .button-action {
+    text-align: right;
+    padding: 10px 20px 10px 10px;
+}
+.page-title {
+    margin-bottom: 40px;
+}
+
+
+.woocommerce-checkout #order_review_heading, .woocommerce-checkout .woocommerce #order_review, .woocommerce-checkout .woocommerce-page #order_review {
+    float: left;
+    width: 100%;
+    margin-left: 4%;
+}
+
+.woocommerce-checkout .woocommerce-checkout-review-order .shop_table.woocommerce-checkout-review-order-table {
+    width: 100%;
+    float: right;
+}
+
+.vi-wcuf-ob-product-desc-wrap img{
+    max-width: 50%;
+}
+.select2-container--default {
+    padding: 0px 0px 0px 0px;
+}
